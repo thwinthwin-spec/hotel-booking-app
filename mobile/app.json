@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Hotel Booking",
+    "slug": "hotel-booking-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "58.0.0",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0E7C5A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0E7C5A"
+      }
+    }
+  }
+}

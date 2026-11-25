@@ -8,19 +8,19 @@ A complete hotel booking system with three apps in one repository:
 | Mobile app | `mobile/` | Expo / React Native, React Navigation, Redux Toolkit | Guest booking flow and role-aware admin screens |
 | Admin panel | `admin/` | React, Vite, Tailwind CSS | Web dashboard for managing hotels, rooms, bookings and users |
 
-## အကျဉ်း — ဒီ project က ဘာလဲ? (At a glance)
+## At a glance — what is this project?
 
 | | |
 | --- | --- |
 | **Project** | Hotel Booking App |
-| **အမျိုးအစား** | Full-stack hotel booking system — repo ထဲမှာ app ၃ ခု (API + mobile + web admin) |
-| **ဘာလုပ်ပေးလဲ** | Hotel/room/booking စီမံ, ငွေပေးချေမှု မှတ်တမ်း, review, auth နဲ့ role အလိုက် admin dashboard, guest အတွက် ခန်းယူ flow |
+| **Type** | Full-stack hotel booking system — three apps in one repo (API + mobile + web admin) |
+| **What it does** | Hotel/room/booking management, payment records, reviews, auth + role-based admin dashboard, guest booking flow |
 | **Tech** | Node.js + Express + MongoDB · Expo / React Native + Redux Toolkit · React + Vite + Tailwind · Stripe + Cloudinary (optional) |
 | **Ports** | API `5000` · Admin web `5173` · Mobile Expo (QR / a / i / w) |
-| **Demo login** | `admin@test.com` / `staff@test.com` / `guest@test.com` — password တူညီ **`123456`** |
-| **အခြေအနေ** | Seeded demo data (hotel ၃, အခန်း ၃၀, booking ၃) ။ တကယ့် Stripe/Cloudinary key မပါပါ — test mode ပဲ သုံးပါ။ |
+| **Demo login** | `admin@test.com` / `staff@test.com` / `guest@test.com` — all use password **`123456`** |
+| **Status** | Seeded demo data (3 hotels, 30 rooms, 3 bookings). No real Stripe/Cloudinary keys — use test mode only. |
 
-**In short (English):** A complete hotel booking system with three apps in one repo: an Express/MongoDB API, an Expo/React Native guest+admin mobile app, and a React/Vite admin dashboard. Handles hotels, rooms, bookings, payments, reviews and role-based access. Demo accounts are included; no real payment or cloud credentials.
+In short: A complete hotel booking system with three apps in one repo: an Express/MongoDB API, an Expo/React Native guest+admin mobile app, and a React/Vite admin dashboard. Handles hotels, rooms, bookings, payments, reviews and role-based access. Demo accounts are included; no real payment or cloud credentials.
 
 ## Quick start
 
